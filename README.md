@@ -17,6 +17,9 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 
 2. `node liri.js spotify-this-song '<song name here>'`
 
+    ![Image of spotify function results]
+    (spotify-this-song-example.gif)
+
    * This will show the following information about the song in your terminal/bash window
 
      * Artist(s)
