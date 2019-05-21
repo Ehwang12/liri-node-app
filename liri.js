@@ -21,7 +21,7 @@ let cmdSearch = process.argv[3];
 
 
 //app function
-if(cmd === "concert-this") {
+if(cmd === "concert-this" && cmdSearch) {
     //search Bands in Town Artist Events API
     let queryUrl = "https://rest.bandsintown.com/artists/" + cmdSearch + "/events?app_id=codingbootcamp";
     
@@ -52,23 +52,32 @@ if(cmd === "concert-this") {
     } else if(cmdSearch === undefined){
         console.log("Please enter Band name or Artist name.")
     }
-// } else if( cmd === "spotify-this-song") {
-//     spotify.search({type: 'track', query: cmdSearch, limit: 1 })
-//         .then(function(response) {
-//             console.log(response);
-//             //console.log:
-//             //artist
-//             //song name
-//             //preview link of song from spotify
-//             //album song is from
-//             //else default song
-//         })
-//         .catch(function(err){
-//             console.log(err);
-//         })
-//     })
+
+
+    if(cmd === "spotify-this-song" && cmdSearch) {
+    spotify.search({type: 'track', query: cmdSearch, limit: 1 })
+        .then(function(response) {
+            console.log(response);
+
+            //capture spotify variable as array to access data
+            let spotArray = reponse.tracks.items;
+
+            for(let i = 0; i < spotArray.length; i++) {
+                console.log()
+            }
+            //console.log:
+            //artist
+            //song name
+            //preview link of song from spotify
+            //album song is from
+            //else default song
+        })
+        .catch(function(err){
+            console.log(err);
+        })
+    };
     
-// }
+
 
 // } else if( cmdSearch === undefined) {
 //     //search default song from random text file
