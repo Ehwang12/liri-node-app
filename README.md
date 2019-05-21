@@ -4,6 +4,12 @@ In this assignment, you will make LIRI. LIRI is like iPhone's SIRI. However, whi
 LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies.
 
 ### What Each Command Should Do
+    
+    ![Image of spotify function results]
+    (spotify-this-song-example.png)
+     
+    ![Gif of concert-this function results]
+    (concert-this-example.gif)
 
 1. `node liri.js concert-this <artist/band name here>`
 
@@ -18,7 +24,10 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 2. `node liri.js spotify-this-song '<song name here>'`
 
     ![Image of spotify function results]
-    (md-ref/spotify-this-song-example.gif)
+    (spotify-this-song-example.png)
+
+    ![Gif of spotify function results]
+    (spotify-this-song-example.gif)
 
    * This will show the following information about the song in your terminal/bash window
 
@@ -34,6 +43,12 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
    
    3. `node liri.js movie-this '<movie name here>'`
 
+    ![Image of spotify function results]
+    (spotify-this-song-example.png)
+    
+    ![Gif of movie-this function results]
+    (movie-this-example.gif)
+  
    * This will output the following information to your terminal/bash window:
 
      ```
