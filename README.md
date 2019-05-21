@@ -23,12 +23,10 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
 
 2. `node liri.js spotify-this-song '<song name here>'`
 
-   ![Image of spotify function results]
-    (https://github.com/Ehwang12/liri-node-app/blob/master/spotifysc.png?raw=true)
+   ![Image of spotify function results](https://github.com/Ehwang12/liri-node-app/blob/master/spotifysc.png?raw=true)
     
 
-    ![Gif of spotify function results]
-    (spotify-this-song-example.gif)
+    ![Gif of spotify function results](https://github.com/Ehwang12/liri-node-app/blob/master/spotify-this-song-example.gif)
 
    * This will show the following information about the song in your terminal/bash window
 
@@ -48,7 +46,7 @@ LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for mov
     (omdbsc.png)
     
     ![Gif of movie-this function results]
-    (/movie-this-example.gif)
+    (movie-this-example.gif)
   
    * This will output the following information to your terminal/bash window:
 
